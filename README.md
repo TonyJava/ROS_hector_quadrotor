@@ -50,5 +50,5 @@
 >- 去https://github.com/ros-teleop/teleop_twist_keyboard 下载ROS Python包，放在建立的工作空间并编译。使用命令```rosrun teleop_twist_keyboard teleop_twist_keyboard.py```运行该节点。注意首先按t键让飞机飞起来才能进行其他控制，否则无法进行其它操作。
 >
 >#### 效果大致如下
-> ![](file:///home/zhenggaoxing/Pic1.png)
+> ![](https://github.com/YunTuring/ROS_hector_quadrotor/blob/master/Pic1.png)
 >
