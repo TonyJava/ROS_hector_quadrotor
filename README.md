@@ -28,23 +28,23 @@
 >cd ~/hector_quadrotor_tutorial
 >wstool init src https://raw.github.com/tu-darmstadt-ros-pkg/hector_quadrotor/hydro-devel/tutorials.rosinstall
 >```
->- 安装好后编译
+>#### 安装好后编译
 >```
 > catkin_make
 > source devel/setup.bash
 >```
->- 运行，启动节点
+>#### 运行，启动节点
 >
->    (1)  outdoor demo
+>- outdoor demo
 >```
 >roslaunch hector_quadrotor_demo outdoor_flight_gazebo.launch
 >```
 >
->      (2) indoor demo
+>- indoor demo
 >```
 >roslaunch hector_quadrotor_demo indoor_slam_gazebo.launch
 >```
 >
->- 键盘控制
+>#### 键盘控制
 >
->去https://github.com/ros-teleop/teleop_twist_keyboard 下载ROS Python包，放在建立的工作空间并编译。使用命令```rosrun teleop_twist_keyboard teleop_twist_keyboard.py```运行该节点。注意首先按t键让飞机飞起来才能进行其他控制，否则无法进行其它操作。
+>- 去https://github.com/ros-teleop/teleop_twist_keyboard 下载ROS Python包，放在建立的工作空间并编译。使用命令```rosrun teleop_twist_keyboard teleop_twist_keyboard.py```运行该节点。注意首先按t键让飞机飞起来才能进行其他控制，否则无法进行其它操作。
