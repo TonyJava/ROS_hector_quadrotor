@@ -12,7 +12,7 @@
 >
 >#### hector_quadrotor简介
 > hector_quadrotor包含与四旋翼无人机系统建模，控制以及仿真相关的包。
->- hector_quadrotor_description提供脸通用的四旋翼URDF模型以及各种各样的传感器。
+>- hector_quadrotor_description提供了通用的四旋翼URDF模型以及各种各样的传感器。
 >- hector_quadrotor_gazebo包含了在Gazebo中运行四旋翼模型所需要的launch file以及依赖信息。
 >- hector_quadrotor_teleop包含了一个允许使用gamepad控制旋翼的节点。
 >- hector_quadrotor_gazebo_plugins提供了Gazebo仿真环境中进行四旋翼仿真所需的特定的plugins。
